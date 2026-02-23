@@ -1,7 +1,7 @@
 import re
 import operator
 def get_word_context_profile():
-	with open("D:\\Python_Prac\\wordstag\\modules\\HI_EN_TRAIN.txt", "r", encoding = "utf-8") as f:
+	with open("modules\\HI_EN_TRAIN.txt", "r", encoding = "utf-8") as f:
 		word_frequency = {}
 		wordlist = []
 		for line in f:

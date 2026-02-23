@@ -136,7 +136,7 @@ def creating_feature_vector():
 	wordlist = []
 	label = ""
 	fw = open("feature_vector.txt", "w+", encoding = "utf-8")
-	with open("D:\\Python_Prac\\wordstag\\modules\\HI_EN_TRAIN.txt", "r", encoding = "utf-8") as f:
+	with open("modules\\HI_EN_TRAIN.txt", "r", encoding = "utf-8") as f:
 		for line in f:
 			wordlist.append(line)
 		for index, line in enumerate(wordlist):

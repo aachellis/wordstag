@@ -1,0 +1,4 @@
+.venv
+feature_vector.txt
+*_pycache__/*
+*.pyc
